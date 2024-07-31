@@ -1,0 +1,10 @@
+/** @format */
+
+.livewebinar-main {
+  background-image: url(images/call\ back.png);
+}
+@media screen and (max-width: 768px) {
+  .livewebinar-main {
+    height: 34vh;
+  }
+}

@@ -1,0 +1,33 @@
+/** @format */
+
+.healthcare-main {
+  background-image: url(images/hospility.png);
+}
+
+.realstate-main {
+  background-image: url(images/real\ state.png);
+}
+.hospitality-main {
+  background-image: url(images/hospitality-main.png);
+}
+
+.restaurant-order-main {
+  background-image: url(images/restaurant\ order.png);
+}
+.cutomer-support-main {
+  background-image: url(images/customer\ support-min.png);
+}
+.entertainment-main {
+  background-image: url(images/travel.png);
+}
+.appointment-main {
+  background-image: url(images/appointment-min.png);
+}
+.virtual-main {
+  background-image: url(images/virtual\ banner.png);
+}
+@media screen and (max-width: 600px) {
+  .healthcare-main h1 {
+    font-size: 18px !important;
+  }
+}

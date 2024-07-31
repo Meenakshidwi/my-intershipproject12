@@ -1,0 +1,74 @@
+/** @format */
+
+.blog-main {
+  background-image: url(images/blog\ main.png);
+  height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+.blog-main h1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+.trending-blog-section {
+  margin-top: 70px;
+}
+.trending-blog-heading {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  color: #1e285f;
+  text-align: center;
+  /* border-bottom: 4px solid #72a8f2; */
+}
+.card {
+  padding: 20px;
+}
+.date-heading {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  color: #898989;
+}
+.card-body {
+  padding: 0;
+}
+.card-title {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  color: #00227c;
+}
+.card-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #737373;
+}
+.read-article-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  color: #00227c;
+}
+@media screen and (max-width: 1280px) and (min-width: 901px) {
+  .blog-main {
+    height: 62vh;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .blog-main {
+    height: 45vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .blog-main {
+    height: 35vh;
+  }
+}

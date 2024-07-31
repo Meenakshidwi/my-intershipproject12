@@ -1,0 +1,10 @@
+/** @format */
+
+.mql-main {
+  background-image: url(images/mql.png);
+}
+@media screen and (max-width: 600px) {
+  .mql-main h1 {
+    font-size: 16px;
+  }
+}

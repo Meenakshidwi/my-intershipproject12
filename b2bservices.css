@@ -1,0 +1,29 @@
+/** @format */
+
+.b2b-main {
+  background-image: url(images/b2b\ img.png);
+  height: 70vh;
+  background-size: cover;
+}
+.services {
+  padding: 100px 0;
+}
+.services-heading h1 {
+  color: #00227c !important;
+}
+.services-heading p {
+  color: #737373 !important;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 480px) {
+  .b2b-main {
+    height: 17vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .b2b-main {
+    height: 25vh;
+  }
+}

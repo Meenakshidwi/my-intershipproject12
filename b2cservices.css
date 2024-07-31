@@ -1,0 +1,20 @@
+/** @format */
+
+.b2c-main {
+  background-image: url(images/b2c.png);
+  height: 70vh;
+}
+a {
+  text-decoration: none;
+}
+.services-heading h1 {
+  color: #00227c !important;
+}
+.services-heading p {
+  color: #737373 !important;
+}
+@media screen and (max-width: 480px) {
+  .b2c-main {
+    height: 35vh;
+  }
+}

@@ -1,0 +1,106 @@
+/** @format */
+.bent-main {
+  background-image: url(images/bent\ main.png);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bent-main h1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+.bent-next {
+  padding: 100px 0;
+}
+.bent-heading {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  color: #06397a;
+}
+.bent-para {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #737373;
+}
+.bant-h4-heading {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  color: #06397a;
+}
+.h6-heading {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  color: #06397a;
+}
+.bent-next li {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #737373;
+}
+.bent-time-img img {
+  width: 100%;
+  height: 100%;
+}
+.services-heading h1 {
+  color: #00227c !important;
+}
+.services-heading p {
+  color: #72a8f2 !important;
+}
+.b2b-text {
+  color: #00227c !important;
+}
+.why-choose-sharpbpo-h1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: #00227c;
+  margin-bottom: 50px;
+}
+.why-choose-sharpbpo {
+  background-image: url(images/why\ choose\ sharpbpo-img.png);
+  height: 100vh;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .bent-main {
+    height: 45vh !important;
+  }
+  .why-choose-sharpbpo {
+    height: 37vh;
+  }
+}
+@media screen and (max-width: 540px) {
+  .why-choose-sharpbpo {
+    height: 30vh;
+  }
+  .bent-time-img img {
+    width: 100%;
+  }
+  .bent-main h1 {
+    font-size: 28px;
+  }
+  .bent-heading {
+    font-size: 28px;
+  }
+  .bent-para {
+    font-size: 16px;
+  }
+  .services-heading h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+  .bent-main {
+    height: 58vh !important;
+  }
+}

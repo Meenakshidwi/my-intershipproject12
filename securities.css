@@ -1,0 +1,70 @@
+/** @format */
+
+.securities-main {
+  background-image: url(images/our\ securities.png);
+  height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.securities-main h1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+.securities-heading {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  color: #00227c;
+  border-bottom: 4px solid #72a8f2;
+  width: 55%;
+}
+.securities-next {
+  margin-top: 100px;
+}
+.securities-next p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #737373;
+}
+.securities-para {
+  margin-top: 50px;
+}
+@media screen and (max-width: 576px) {
+  .securities-next-img img {
+    width: 100%;
+  }
+  .securities-heading {
+    font-size: 25px;
+  }
+  .securities-main {
+    height: 50vh;
+  }
+  .securities-main h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .securities-main {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .securities-main {
+    height: 37vh;
+  }
+  .securities-heading {
+    font-size: 35px;
+  }
+  .securities-next-img img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .securities-main {
+    height: 62vh;
+  }
+}
